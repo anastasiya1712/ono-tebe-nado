@@ -33,7 +33,6 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
 }
 
 .address {
@@ -55,7 +54,7 @@
   background-size: cover;
   width: 1100px;
   height: 757px;
-  
+  margin-bottom: 179px;
 }
 
 .overlay {
@@ -111,7 +110,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 50px 51px 78px;
-  
 }
 
 .cover__description-text {
@@ -120,7 +118,6 @@
   word-spacing: 10px;
   font-size: 22px;
   font-weight: 400;
-
 }
 
 .bet-button {
@@ -135,9 +132,9 @@
 }
 
 .lots {
-  margin-top: 179px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 146px;
 }
 
 .lots__heading {
@@ -151,7 +148,7 @@
   margin-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
-  /* font-family: src="Raleway-";*/
+  
 }
 
 .lots__card-list {
@@ -165,15 +162,9 @@
   text-transform: uppercase;
   text-decoration: underline;
   background-position: center;
-  width: 254px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 51px; /*?*/
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
-  display: flex;
-  flex-direction: column;
   text-decoration-line: underline;
   text-decoration-thickness: from-font;
   text-underline-offset: 3.5px;
@@ -204,9 +195,6 @@
 }
 
 .card__text {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 48px;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -220,43 +208,82 @@
   text-underline-offset: 3.5px;
 }
 
-.lots__card-list-item {
+.lots__card-list-item div {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 51px 40px 48px 40px;
+
+
+
 }
 
 .about {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  height: 595px;
+  margin-left: 24px;
+  margin-right: 24px;
+
+
+
 }
 
 .about__column {
-  padding: 146px 24px 24px 180px;
+
 }
 
-.par {
-  margin-bottom: 24px;
+
+.about__column-left-element {
+  width: 334px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.about__column-right-element {
+  width: 693px;
+}
+
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  
+
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
 }
 
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  align-items: center;
-  justify-content: center;
-}
-
-.about__logo-image {
-  width: 240px;
-  height: 240px;
-  align-items: start;
-  justify-content: start;
+  padding-top: 136px;
+  padding-bottom: 100px;
 }
 
 .about__text {
   align-items: end;
   justify-content: flex-end;
-  width: 693px;
-  height: 312px;
+}
+
+.first-paragraph {
+  margin-bottom: 24px;
 }
 
 .footer {
