@@ -74,6 +74,12 @@
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 700;
+  /*padding: 165px 50px 135px 50px;*/
+  letter-spacing: 30px;
+  padding-top: 162px;
+
 }
 
 .aligned-text {
@@ -82,7 +88,8 @@
   color: #fff;
   align-items: flex-start;
   text-align: start;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  
 }
 
 .aligned-text_center {
@@ -92,6 +99,9 @@
   text-align: center;
   align-items: center;
   text-transform: uppercase;
+  padding-top: 13px;
+  margin-right: 58px;
+  
 }
 
 .aligned-text_right {
@@ -101,6 +111,23 @@
   text-align: end;
   align-items: end;
   text-transform: uppercase;
+  
+}
+
+.aligned-text__another-padding {
+  padding-left: 30px;
+}
+
+.aligned-text__another-padding_first {
+  padding-left: 30px;
+}
+
+.aligned-text__another-padding_second {
+  margin-right: 30px;
+}
+
+.aligned-text__another-padding_fourth {
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -263,6 +290,9 @@
 .about__text {
   align-items: end;
   justify-content: flex-end;
+  font-size: 20px;
+  font-weight: 400;
+  
 }
 
 .first-paragraph {
