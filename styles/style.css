@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 92px 24px 96px 24px;
+  margin: 92px 24px 102px 24px;
 }
 
 .header__links-list {
@@ -88,8 +88,8 @@
   color: #fff;
   align-items: flex-start;
   text-align: start;
-  text-transform: uppercase;  
-  
+  text-transform: uppercase;
+
 }
 
 .aligned-text_center {
@@ -170,8 +170,7 @@
   height: 47px;
   margin-left: 40px;
   line-height: 46.96px;
-  padding-left: 40px;
-  padding-right: 891px;
+  padding-left: 4px;
   margin-bottom: 27px;
   font-size: 40px;
   font-weight: 700;
@@ -232,6 +231,8 @@
   text-decoration-line: underline;
   text-decoration-thickness: from-font;
   text-underline-offset: 3.5px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .lots__card-list-item div {
