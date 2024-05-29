@@ -32,7 +32,13 @@
 .header__logo {
   width: 148px;
   height: 105px;
+  /*display: flex;
+  flex-direction: row; */
+
+ 
   position: absolute;
+  
+
   left: 50%;
   transform: translateX(-50%);
 }
@@ -40,15 +46,18 @@
 .address {
   width: 240.52px;
   height: 98px;
+  font-style: normal;
 }
 
 .address-item {
   list-style-type: none;
+  
 }
 
 .address-link {
   text-underline-position: under;
 }
+
 
 .cover {
   background-image: url(../images/cover.jpg);
