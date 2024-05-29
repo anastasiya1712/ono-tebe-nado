@@ -21,11 +21,13 @@
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
+  text-decoration: none;
 }
 
 .header__link_active {
   text-decoration: none;
 }
+
 
 .header__logo {
   width: 148px;
