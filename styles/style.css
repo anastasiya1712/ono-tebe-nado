@@ -30,11 +30,13 @@
 .header__links-list-item_no-bullit {
   text-decoration: none;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .header__link_active {
   text-decoration: none;
 }
+
 
 .header__logo {
   width: 137px;
@@ -67,6 +69,7 @@
   text-decoration-skip-ink: none;
   text-underline-offset: 3.5px;
 }
+
 .cover {
   width: 1100px;
   margin-bottom: 179px;
