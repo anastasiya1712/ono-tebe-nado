@@ -29,7 +29,6 @@
 
 .header__links-list-item_no-bullit {
   text-decoration: none;
-  text-decoration: none;
   list-style-type: none;
 }
 
@@ -60,16 +59,16 @@
   padding-left: 52px;
 }
 
-.header__address a,
-.footer__address a,
+.header__address-link,
+.footer__address-link,
 .address {
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
 }
 
-.header__address a,
-.footer__address a {
+.header__address-link,
+.footer__address-link {
   text-decoration-thickness: from-font;
   text-decoration-skip-ink: none;
   text-underline-offset: 3.5px;
@@ -221,7 +220,7 @@
   text-decoration: none;
 }
 
-.card div {
+.card-overlay {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
